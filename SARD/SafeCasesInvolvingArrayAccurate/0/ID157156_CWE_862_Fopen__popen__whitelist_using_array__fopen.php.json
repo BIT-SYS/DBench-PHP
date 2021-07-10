@@ -1,0 +1,686 @@
+[
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "handle",
+                "attributes": {
+                    "startLine": 46,
+                    "startFilePos": 1097,
+                    "comments": [
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/*\n\/* \nSafe sample\ninput : Uses popen to read the file \/tmp\/tainted.txt using cat command\nSANITIZE : use in_array to check if $tainted is in the white list\nconstruction : fopen\n*\/",
+                            "line": 2,
+                            "filePos": 6,
+                            "tokenPos": 1
+                        },
+                        {
+                            "nodeType": "Comment",
+                            "text": "\/*Copyright 2015 Bertrand STIVALET \n\nPermission is hereby granted, without written agreement or royalty fee, to\n\nuse, copy, modify, and distribute this software and its documentation for\n\nany purpose, provided that the above copyright notice and the following\n\nthree paragraphs appear in all copies of this software.\n\n\nIN NO EVENT SHALL AUTHORS BE LIABLE TO ANY PARTY FOR DIRECT,\n\nINDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE \n\nUSE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF AUTHORS HAVE\n\nBEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\nAUTHORS SPECIFICALLY DISCLAIM ANY WARRANTIES INCLUDING, BUT NOT\n\nLIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\n\nPARTICULAR PURPOSE, AND NON-INFRINGEMENT.\n\n\nTHE SOFTWARE IS PROVIDED ON AN \"AS-IS\" BASIS AND AUTHORS HAVE NO\n\nOBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR\n\nMODIFICATIONS.*\/",
+                            "line": 12,
+                            "filePos": 189,
+                            "tokenPos": 3
+                        }
+                    ],
+                    "endLine": 46,
+                    "endFilePos": 1103
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "popen"
+                    ],
+                    "attributes": {
+                        "startLine": 46,
+                        "startFilePos": 1107,
+                        "endLine": 46,
+                        "endFilePos": 1111
+                    }
+                },
+                "args": [
+                    {
+                        "nodeType": "Arg",
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "value": "\/bin\/cat \/tmp\/tainted.txt",
+                            "attributes": {
+                                "startLine": 46,
+                                "startFilePos": 1113,
+                                "endLine": 46,
+                                "endFilePos": 1139,
+                                "kind": 1
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false,
+                        "attributes": {
+                            "startLine": 46,
+                            "startFilePos": 1113,
+                            "endLine": 46,
+                            "endFilePos": 1139
+                        }
+                    },
+                    {
+                        "nodeType": "Arg",
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "value": "r",
+                            "attributes": {
+                                "startLine": 46,
+                                "startFilePos": 1142,
+                                "endLine": 46,
+                                "endFilePos": 1144,
+                                "kind": 1
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false,
+                        "attributes": {
+                            "startLine": 46,
+                            "startFilePos": 1142,
+                            "endLine": 46,
+                            "endFilePos": 1144
+                        }
+                    }
+                ],
+                "attributes": {
+                    "startLine": 46,
+                    "startFilePos": 1107,
+                    "endLine": 46,
+                    "endFilePos": 1145
+                }
+            },
+            "attributes": {
+                "startLine": 46,
+                "startFilePos": 1097,
+                "comments": [
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/*\n\/* \nSafe sample\ninput : Uses popen to read the file \/tmp\/tainted.txt using cat command\nSANITIZE : use in_array to check if $tainted is in the white list\nconstruction : fopen\n*\/",
+                        "line": 2,
+                        "filePos": 6,
+                        "tokenPos": 1
+                    },
+                    {
+                        "nodeType": "Comment",
+                        "text": "\/*Copyright 2015 Bertrand STIVALET \n\nPermission is hereby granted, without written agreement or royalty fee, to\n\nuse, copy, modify, and distribute this software and its documentation for\n\nany purpose, provided that the above copyright notice and the following\n\nthree paragraphs appear in all copies of this software.\n\n\nIN NO EVENT SHALL AUTHORS BE LIABLE TO ANY PARTY FOR DIRECT,\n\nINDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE \n\nUSE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF AUTHORS HAVE\n\nBEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\nAUTHORS SPECIFICALLY DISCLAIM ANY WARRANTIES INCLUDING, BUT NOT\n\nLIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\n\nPARTICULAR PURPOSE, AND NON-INFRINGEMENT.\n\n\nTHE SOFTWARE IS PROVIDED ON AN \"AS-IS\" BASIS AND AUTHORS HAVE NO\n\nOBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR\n\nMODIFICATIONS.*\/",
+                        "line": 12,
+                        "filePos": 189,
+                        "tokenPos": 3
+                    }
+                ],
+                "endLine": 46,
+                "endFilePos": 1145
+            }
+        },
+        "attributes": {
+            "startLine": 46,
+            "startFilePos": 1097,
+            "comments": [
+                {
+                    "nodeType": "Comment",
+                    "text": "\/*\n\/* \nSafe sample\ninput : Uses popen to read the file \/tmp\/tainted.txt using cat command\nSANITIZE : use in_array to check if $tainted is in the white list\nconstruction : fopen\n*\/",
+                    "line": 2,
+                    "filePos": 6,
+                    "tokenPos": 1
+                },
+                {
+                    "nodeType": "Comment",
+                    "text": "\/*Copyright 2015 Bertrand STIVALET \n\nPermission is hereby granted, without written agreement or royalty fee, to\n\nuse, copy, modify, and distribute this software and its documentation for\n\nany purpose, provided that the above copyright notice and the following\n\nthree paragraphs appear in all copies of this software.\n\n\nIN NO EVENT SHALL AUTHORS BE LIABLE TO ANY PARTY FOR DIRECT,\n\nINDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE \n\nUSE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF AUTHORS HAVE\n\nBEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\nAUTHORS SPECIFICALLY DISCLAIM ANY WARRANTIES INCLUDING, BUT NOT\n\nLIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\n\nPARTICULAR PURPOSE, AND NON-INFRINGEMENT.\n\n\nTHE SOFTWARE IS PROVIDED ON AN \"AS-IS\" BASIS AND AUTHORS HAVE NO\n\nOBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR\n\nMODIFICATIONS.*\/",
+                    "line": 12,
+                    "filePos": 189,
+                    "tokenPos": 3
+                }
+            ],
+            "endLine": 46,
+            "endFilePos": 1146
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "tainted",
+                "attributes": {
+                    "startLine": 47,
+                    "startFilePos": 1148,
+                    "endLine": 47,
+                    "endFilePos": 1155
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "fread"
+                    ],
+                    "attributes": {
+                        "startLine": 47,
+                        "startFilePos": 1159,
+                        "endLine": 47,
+                        "endFilePos": 1163
+                    }
+                },
+                "args": [
+                    {
+                        "nodeType": "Arg",
+                        "value": {
+                            "nodeType": "Expr_Variable",
+                            "name": "handle",
+                            "attributes": {
+                                "startLine": 47,
+                                "startFilePos": 1165,
+                                "endLine": 47,
+                                "endFilePos": 1171
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false,
+                        "attributes": {
+                            "startLine": 47,
+                            "startFilePos": 1165,
+                            "endLine": 47,
+                            "endFilePos": 1171
+                        }
+                    },
+                    {
+                        "nodeType": "Arg",
+                        "value": {
+                            "nodeType": "Scalar_LNumber",
+                            "value": 4096,
+                            "attributes": {
+                                "startLine": 47,
+                                "startFilePos": 1174,
+                                "endLine": 47,
+                                "endFilePos": 1177,
+                                "kind": 10
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false,
+                        "attributes": {
+                            "startLine": 47,
+                            "startFilePos": 1174,
+                            "endLine": 47,
+                            "endFilePos": 1177
+                        }
+                    }
+                ],
+                "attributes": {
+                    "startLine": 47,
+                    "startFilePos": 1159,
+                    "endLine": 47,
+                    "endFilePos": 1178
+                }
+            },
+            "attributes": {
+                "startLine": 47,
+                "startFilePos": 1148,
+                "endLine": 47,
+                "endFilePos": 1178
+            }
+        },
+        "attributes": {
+            "startLine": 47,
+            "startFilePos": 1148,
+            "endLine": 47,
+            "endFilePos": 1179
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_FuncCall",
+            "name": {
+                "nodeType": "Name",
+                "parts": [
+                    "pclose"
+                ],
+                "attributes": {
+                    "startLine": 48,
+                    "startFilePos": 1181,
+                    "endLine": 48,
+                    "endFilePos": 1186
+                }
+            },
+            "args": [
+                {
+                    "nodeType": "Arg",
+                    "value": {
+                        "nodeType": "Expr_Variable",
+                        "name": "handle",
+                        "attributes": {
+                            "startLine": 48,
+                            "startFilePos": 1188,
+                            "endLine": 48,
+                            "endFilePos": 1194
+                        }
+                    },
+                    "byRef": false,
+                    "unpack": false,
+                    "attributes": {
+                        "startLine": 48,
+                        "startFilePos": 1188,
+                        "endLine": 48,
+                        "endFilePos": 1194
+                    }
+                }
+            ],
+            "attributes": {
+                "startLine": 48,
+                "startFilePos": 1181,
+                "endLine": 48,
+                "endFilePos": 1195
+            }
+        },
+        "attributes": {
+            "startLine": 48,
+            "startFilePos": 1181,
+            "endLine": 48,
+            "endFilePos": 1196
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "legal_table",
+                "attributes": {
+                    "startLine": 50,
+                    "startFilePos": 1199,
+                    "endLine": 50,
+                    "endFilePos": 1210
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_Array",
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "value": "safe1",
+                            "attributes": {
+                                "startLine": 50,
+                                "startFilePos": 1220,
+                                "endLine": 50,
+                                "endFilePos": 1226,
+                                "kind": 2
+                            }
+                        },
+                        "byRef": false,
+                        "attributes": {
+                            "startLine": 50,
+                            "startFilePos": 1220,
+                            "endLine": 50,
+                            "endFilePos": 1226
+                        }
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "value": "safe2",
+                            "attributes": {
+                                "startLine": 50,
+                                "startFilePos": 1229,
+                                "endLine": 50,
+                                "endFilePos": 1235,
+                                "kind": 2
+                            }
+                        },
+                        "byRef": false,
+                        "attributes": {
+                            "startLine": 50,
+                            "startFilePos": 1229,
+                            "endLine": 50,
+                            "endFilePos": 1235
+                        }
+                    }
+                ],
+                "attributes": {
+                    "startLine": 50,
+                    "startFilePos": 1214,
+                    "endLine": 50,
+                    "endFilePos": 1236,
+                    "kind": 1
+                }
+            },
+            "attributes": {
+                "startLine": 50,
+                "startFilePos": 1199,
+                "endLine": 50,
+                "endFilePos": 1236
+            }
+        },
+        "attributes": {
+            "startLine": 50,
+            "startFilePos": 1199,
+            "endLine": 50,
+            "endFilePos": 1237
+        }
+    },
+    {
+        "nodeType": "Stmt_If",
+        "cond": {
+            "nodeType": "Expr_FuncCall",
+            "name": {
+                "nodeType": "Name",
+                "parts": [
+                    "in_array"
+                ],
+                "attributes": {
+                    "startLine": 51,
+                    "startFilePos": 1243,
+                    "endLine": 51,
+                    "endFilePos": 1250
+                }
+            },
+            "args": [
+                {
+                    "nodeType": "Arg",
+                    "value": {
+                        "nodeType": "Expr_Variable",
+                        "name": "tainted",
+                        "attributes": {
+                            "startLine": 51,
+                            "startFilePos": 1252,
+                            "endLine": 51,
+                            "endFilePos": 1259
+                        }
+                    },
+                    "byRef": false,
+                    "unpack": false,
+                    "attributes": {
+                        "startLine": 51,
+                        "startFilePos": 1252,
+                        "endLine": 51,
+                        "endFilePos": 1259
+                    }
+                },
+                {
+                    "nodeType": "Arg",
+                    "value": {
+                        "nodeType": "Expr_Variable",
+                        "name": "legal_table",
+                        "attributes": {
+                            "startLine": 51,
+                            "startFilePos": 1262,
+                            "endLine": 51,
+                            "endFilePos": 1273
+                        }
+                    },
+                    "byRef": false,
+                    "unpack": false,
+                    "attributes": {
+                        "startLine": 51,
+                        "startFilePos": 1262,
+                        "endLine": 51,
+                        "endFilePos": 1273
+                    }
+                },
+                {
+                    "nodeType": "Arg",
+                    "value": {
+                        "nodeType": "Expr_ConstFetch",
+                        "name": {
+                            "nodeType": "Name",
+                            "parts": [
+                                "true"
+                            ],
+                            "attributes": {
+                                "startLine": 51,
+                                "startFilePos": 1276,
+                                "endLine": 51,
+                                "endFilePos": 1279
+                            }
+                        },
+                        "attributes": {
+                            "startLine": 51,
+                            "startFilePos": 1276,
+                            "endLine": 51,
+                            "endFilePos": 1279
+                        }
+                    },
+                    "byRef": false,
+                    "unpack": false,
+                    "attributes": {
+                        "startLine": 51,
+                        "startFilePos": 1276,
+                        "endLine": 51,
+                        "endFilePos": 1279
+                    }
+                }
+            ],
+            "attributes": {
+                "startLine": 51,
+                "startFilePos": 1243,
+                "endLine": 51,
+                "endFilePos": 1280
+            }
+        },
+        "stmts": [
+            {
+                "nodeType": "Stmt_Expression",
+                "expr": {
+                    "nodeType": "Expr_Assign",
+                    "var": {
+                        "nodeType": "Expr_Variable",
+                        "name": "tainted",
+                        "attributes": {
+                            "startLine": 52,
+                            "startFilePos": 1287,
+                            "endLine": 52,
+                            "endFilePos": 1294
+                        }
+                    },
+                    "expr": {
+                        "nodeType": "Expr_Variable",
+                        "name": "tainted",
+                        "attributes": {
+                            "startLine": 52,
+                            "startFilePos": 1298,
+                            "endLine": 52,
+                            "endFilePos": 1305
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 52,
+                        "startFilePos": 1287,
+                        "endLine": 52,
+                        "endFilePos": 1305
+                    }
+                },
+                "attributes": {
+                    "startLine": 52,
+                    "startFilePos": 1287,
+                    "endLine": 52,
+                    "endFilePos": 1306
+                }
+            }
+        ],
+        "elseifs": [],
+        "else": {
+            "nodeType": "Stmt_Else",
+            "stmts": [
+                {
+                    "nodeType": "Stmt_Expression",
+                    "expr": {
+                        "nodeType": "Expr_Assign",
+                        "var": {
+                            "nodeType": "Expr_Variable",
+                            "name": "tainted",
+                            "attributes": {
+                                "startLine": 54,
+                                "startFilePos": 1319,
+                                "endLine": 54,
+                                "endFilePos": 1326
+                            }
+                        },
+                        "expr": {
+                            "nodeType": "Expr_ArrayDimFetch",
+                            "var": {
+                                "nodeType": "Expr_Variable",
+                                "name": "legal_table",
+                                "attributes": {
+                                    "startLine": 54,
+                                    "startFilePos": 1330,
+                                    "endLine": 54,
+                                    "endFilePos": 1341
+                                }
+                            },
+                            "dim": {
+                                "nodeType": "Scalar_LNumber",
+                                "value": 0,
+                                "attributes": {
+                                    "startLine": 54,
+                                    "startFilePos": 1343,
+                                    "endLine": 54,
+                                    "endFilePos": 1343,
+                                    "kind": 10
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 54,
+                                "startFilePos": 1330,
+                                "endLine": 54,
+                                "endFilePos": 1344
+                            }
+                        },
+                        "attributes": {
+                            "startLine": 54,
+                            "startFilePos": 1319,
+                            "endLine": 54,
+                            "endFilePos": 1344
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 54,
+                        "startFilePos": 1319,
+                        "endLine": 54,
+                        "endFilePos": 1345
+                    }
+                }
+            ],
+            "attributes": {
+                "startLine": 53,
+                "startFilePos": 1310,
+                "endLine": 55,
+                "endFilePos": 1347
+            }
+        },
+        "attributes": {
+            "startLine": 51,
+            "startFilePos": 1239,
+            "endLine": 55,
+            "endFilePos": 1347
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "var",
+                "attributes": {
+                    "startLine": 58,
+                    "startFilePos": 1351,
+                    "endLine": 58,
+                    "endFilePos": 1354
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "fopen"
+                    ],
+                    "attributes": {
+                        "startLine": 58,
+                        "startFilePos": 1358,
+                        "endLine": 58,
+                        "endFilePos": 1362
+                    }
+                },
+                "args": [
+                    {
+                        "nodeType": "Arg",
+                        "value": {
+                            "nodeType": "Expr_Variable",
+                            "name": "tainted",
+                            "attributes": {
+                                "startLine": 58,
+                                "startFilePos": 1364,
+                                "endLine": 58,
+                                "endFilePos": 1371
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false,
+                        "attributes": {
+                            "startLine": 58,
+                            "startFilePos": 1364,
+                            "endLine": 58,
+                            "endFilePos": 1371
+                        }
+                    },
+                    {
+                        "nodeType": "Arg",
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "value": "r",
+                            "attributes": {
+                                "startLine": 58,
+                                "startFilePos": 1374,
+                                "endLine": 58,
+                                "endFilePos": 1376,
+                                "kind": 2
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false,
+                        "attributes": {
+                            "startLine": 58,
+                            "startFilePos": 1374,
+                            "endLine": 58,
+                            "endFilePos": 1376
+                        }
+                    }
+                ],
+                "attributes": {
+                    "startLine": 58,
+                    "startFilePos": 1358,
+                    "endLine": 58,
+                    "endFilePos": 1377
+                }
+            },
+            "attributes": {
+                "startLine": 58,
+                "startFilePos": 1351,
+                "endLine": 58,
+                "endFilePos": 1377
+            }
+        },
+        "attributes": {
+            "startLine": 58,
+            "startFilePos": 1351,
+            "endLine": 58,
+            "endFilePos": 1378
+        }
+    }
+]

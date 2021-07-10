@@ -1,0 +1,452 @@
+[
+    {
+        "nodeType": "Stmt_InlineHTML",
+        "value": "<!-- \nSafe sample\ninput : get the $_GET['userData'] in an array\nsanitize : use of the function htmlspecialchars. Sanitizes the query but has a high chance to produce unexpected results\nFile : use of untrusted data in one side of a double quoted expression in a script\n-->\n\n<!--Copyright 2015 Bertrand STIVALET \n\nPermission is hereby granted, without written agreement or royalty fee, to\n\nuse, copy, modify, and distribute this software and its documentation for\n\nany purpose, provided that the above copyright notice and the following\n\nthree paragraphs appear in all copies of this software.\n\n\nIN NO EVENT SHALL AUTHORS BE LIABLE TO ANY PARTY FOR DIRECT,\n\nINDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE \n\nUSE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF AUTHORS HAVE\n\nBEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\nAUTHORS SPECIFICALLY DISCLAIM ANY WARRANTIES INCLUDING, BUT NOT\n\nLIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\n\nPARTICULAR PURPOSE, AND NON-INFRINGEMENT.\n\n\nTHE SOFTWARE IS PROVIDED ON AN \"AS-IS\" BASIS AND AUTHORS HAVE NO\n\nOBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR\n\nMODIFICATIONS.-->\n\n\n<!DOCTYPE html>\n<html>\n<head>\n<script>\n",
+        "attributes": {
+            "startLine": 1,
+            "startFilePos": 0,
+            "hasLeadingNewline": true,
+            "endLine": 46,
+            "endFilePos": 1222
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "array",
+                "attributes": {
+                    "startLine": 47,
+                    "startFilePos": 1229,
+                    "endLine": 47,
+                    "endFilePos": 1234
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_Array",
+                "items": [],
+                "attributes": {
+                    "startLine": 47,
+                    "startFilePos": 1238,
+                    "endLine": 47,
+                    "endFilePos": 1244,
+                    "kind": 1
+                }
+            },
+            "attributes": {
+                "startLine": 47,
+                "startFilePos": 1229,
+                "endLine": 47,
+                "endFilePos": 1244
+            }
+        },
+        "attributes": {
+            "startLine": 47,
+            "startFilePos": 1229,
+            "endLine": 47,
+            "endFilePos": 1245
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "array",
+                    "attributes": {
+                        "startLine": 48,
+                        "startFilePos": 1247,
+                        "endLine": 48,
+                        "endFilePos": 1252
+                    }
+                },
+                "dim": null,
+                "attributes": {
+                    "startLine": 48,
+                    "startFilePos": 1247,
+                    "endLine": 48,
+                    "endFilePos": 1254
+                }
+            },
+            "expr": {
+                "nodeType": "Scalar_String",
+                "value": "safe",
+                "attributes": {
+                    "startLine": 48,
+                    "startFilePos": 1258,
+                    "endLine": 48,
+                    "endFilePos": 1263,
+                    "kind": 1
+                }
+            },
+            "attributes": {
+                "startLine": 48,
+                "startFilePos": 1247,
+                "endLine": 48,
+                "endFilePos": 1263
+            }
+        },
+        "attributes": {
+            "startLine": 48,
+            "startFilePos": 1247,
+            "endLine": 48,
+            "endFilePos": 1265
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "array",
+                    "attributes": {
+                        "startLine": 49,
+                        "startFilePos": 1267,
+                        "endLine": 49,
+                        "endFilePos": 1272
+                    }
+                },
+                "dim": null,
+                "attributes": {
+                    "startLine": 49,
+                    "startFilePos": 1267,
+                    "endLine": 49,
+                    "endFilePos": 1274
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "_GET",
+                    "attributes": {
+                        "startLine": 49,
+                        "startFilePos": 1278,
+                        "endLine": 49,
+                        "endFilePos": 1282
+                    }
+                },
+                "dim": {
+                    "nodeType": "Scalar_String",
+                    "value": "userData",
+                    "attributes": {
+                        "startLine": 49,
+                        "startFilePos": 1284,
+                        "endLine": 49,
+                        "endFilePos": 1293,
+                        "kind": 1
+                    }
+                },
+                "attributes": {
+                    "startLine": 49,
+                    "startFilePos": 1278,
+                    "endLine": 49,
+                    "endFilePos": 1294
+                }
+            },
+            "attributes": {
+                "startLine": 49,
+                "startFilePos": 1267,
+                "endLine": 49,
+                "endFilePos": 1294
+            }
+        },
+        "attributes": {
+            "startLine": 49,
+            "startFilePos": 1267,
+            "endLine": 49,
+            "endFilePos": 1296
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "array",
+                    "attributes": {
+                        "startLine": 50,
+                        "startFilePos": 1298,
+                        "endLine": 50,
+                        "endFilePos": 1303
+                    }
+                },
+                "dim": null,
+                "attributes": {
+                    "startLine": 50,
+                    "startFilePos": 1298,
+                    "endLine": 50,
+                    "endFilePos": 1305
+                }
+            },
+            "expr": {
+                "nodeType": "Scalar_String",
+                "value": "safe",
+                "attributes": {
+                    "startLine": 50,
+                    "startFilePos": 1309,
+                    "endLine": 50,
+                    "endFilePos": 1314,
+                    "kind": 1
+                }
+            },
+            "attributes": {
+                "startLine": 50,
+                "startFilePos": 1298,
+                "endLine": 50,
+                "endFilePos": 1314
+            }
+        },
+        "attributes": {
+            "startLine": 50,
+            "startFilePos": 1298,
+            "endLine": 50,
+            "endFilePos": 1316
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "tainted",
+                "attributes": {
+                    "startLine": 51,
+                    "startFilePos": 1318,
+                    "endLine": 51,
+                    "endFilePos": 1325
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_ArrayDimFetch",
+                "var": {
+                    "nodeType": "Expr_Variable",
+                    "name": "array",
+                    "attributes": {
+                        "startLine": 51,
+                        "startFilePos": 1329,
+                        "endLine": 51,
+                        "endFilePos": 1334
+                    }
+                },
+                "dim": {
+                    "nodeType": "Scalar_LNumber",
+                    "value": 1,
+                    "attributes": {
+                        "startLine": 51,
+                        "startFilePos": 1336,
+                        "endLine": 51,
+                        "endFilePos": 1336,
+                        "kind": 10
+                    }
+                },
+                "attributes": {
+                    "startLine": 51,
+                    "startFilePos": 1329,
+                    "endLine": 51,
+                    "endFilePos": 1337
+                }
+            },
+            "attributes": {
+                "startLine": 51,
+                "startFilePos": 1318,
+                "endLine": 51,
+                "endFilePos": 1337
+            }
+        },
+        "attributes": {
+            "startLine": 51,
+            "startFilePos": 1318,
+            "endLine": 51,
+            "endFilePos": 1339
+        }
+    },
+    {
+        "nodeType": "Stmt_Expression",
+        "expr": {
+            "nodeType": "Expr_Assign",
+            "var": {
+                "nodeType": "Expr_Variable",
+                "name": "tainted",
+                "attributes": {
+                    "startLine": 53,
+                    "startFilePos": 1342,
+                    "endLine": 53,
+                    "endFilePos": 1349
+                }
+            },
+            "expr": {
+                "nodeType": "Expr_FuncCall",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "htmlspecialchars"
+                    ],
+                    "attributes": {
+                        "startLine": 53,
+                        "startFilePos": 1353,
+                        "endLine": 53,
+                        "endFilePos": 1368
+                    }
+                },
+                "args": [
+                    {
+                        "nodeType": "Arg",
+                        "value": {
+                            "nodeType": "Expr_Variable",
+                            "name": "tainted",
+                            "attributes": {
+                                "startLine": 53,
+                                "startFilePos": 1370,
+                                "endLine": 53,
+                                "endFilePos": 1377
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false,
+                        "attributes": {
+                            "startLine": 53,
+                            "startFilePos": 1370,
+                            "endLine": 53,
+                            "endFilePos": 1377
+                        }
+                    },
+                    {
+                        "nodeType": "Arg",
+                        "value": {
+                            "nodeType": "Expr_ConstFetch",
+                            "name": {
+                                "nodeType": "Name",
+                                "parts": [
+                                    "ENT_QUOTES"
+                                ],
+                                "attributes": {
+                                    "startLine": 53,
+                                    "startFilePos": 1380,
+                                    "endLine": 53,
+                                    "endFilePos": 1389
+                                }
+                            },
+                            "attributes": {
+                                "startLine": 53,
+                                "startFilePos": 1380,
+                                "endLine": 53,
+                                "endFilePos": 1389
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false,
+                        "attributes": {
+                            "startLine": 53,
+                            "startFilePos": 1380,
+                            "endLine": 53,
+                            "endFilePos": 1389
+                        }
+                    }
+                ],
+                "attributes": {
+                    "startLine": 53,
+                    "startFilePos": 1353,
+                    "endLine": 53,
+                    "endFilePos": 1390
+                }
+            },
+            "attributes": {
+                "startLine": 53,
+                "startFilePos": 1342,
+                "endLine": 53,
+                "endFilePos": 1390
+            }
+        },
+        "attributes": {
+            "startLine": 53,
+            "startFilePos": 1342,
+            "endLine": 53,
+            "endFilePos": 1391
+        }
+    },
+    {
+        "nodeType": "Stmt_Echo",
+        "exprs": [
+            {
+                "nodeType": "Expr_BinaryOp_Concat",
+                "left": {
+                    "nodeType": "Expr_BinaryOp_Concat",
+                    "left": {
+                        "nodeType": "Scalar_String",
+                        "value": "x=\"",
+                        "attributes": {
+                            "startLine": 56,
+                            "startFilePos": 1400,
+                            "endLine": 56,
+                            "endFilePos": 1405,
+                            "kind": 2
+                        }
+                    },
+                    "right": {
+                        "nodeType": "Expr_Variable",
+                        "name": "tainted",
+                        "attributes": {
+                            "startLine": 56,
+                            "startFilePos": 1408,
+                            "endLine": 56,
+                            "endFilePos": 1415
+                        }
+                    },
+                    "attributes": {
+                        "startLine": 56,
+                        "startFilePos": 1400,
+                        "endLine": 56,
+                        "endFilePos": 1415
+                    }
+                },
+                "right": {
+                    "nodeType": "Scalar_String",
+                    "value": "\"",
+                    "attributes": {
+                        "startLine": 56,
+                        "startFilePos": 1417,
+                        "endLine": 56,
+                        "endFilePos": 1420,
+                        "kind": 2
+                    }
+                },
+                "attributes": {
+                    "startLine": 56,
+                    "startFilePos": 1400,
+                    "endLine": 56,
+                    "endFilePos": 1420
+                }
+            }
+        ],
+        "attributes": {
+            "startLine": 56,
+            "startFilePos": 1395,
+            "endLine": 56,
+            "endFilePos": 1422
+        }
+    },
+    {
+        "nodeType": "Stmt_InlineHTML",
+        "value": "<\/script>\n<\/head>\n<body>\n<h1>Hello World!<\/h1>\n<\/body>\n<\/html>",
+        "attributes": {
+            "startLine": 58,
+            "startFilePos": 1427,
+            "hasLeadingNewline": true,
+            "endLine": 63,
+            "endFilePos": 1488
+        }
+    }
+]
